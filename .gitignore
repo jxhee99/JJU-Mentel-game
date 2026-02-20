@@ -1,0 +1,34 @@
+# 환경 변수
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 임시 파일
+*.log
+*.tmp
+
+# FastText 원본 (용량 큼)
+cc.ko.300.vec
+cc.ko.300.vec.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# md
+discord-semantle-game-guide.md
+
