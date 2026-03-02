@@ -217,7 +217,7 @@ async def guess(interaction: discord.Interaction, word: str):
     best_rank_text = f"{user_state['best_rank']}위"
     if user_state['best_word']:
         best_rank_text += f" : {user_state['best_word']} ({user_state['best_similarity'] * 100:.2f}%)"
-1
+
     embed.add_field(
         name="🎯 최고 순위",
         value=best_rank_text,
